@@ -16,3 +16,5 @@ const [modalVisible, setModalVisible] = React.useState(false);
 ```javascript
 <CustomCalendar visible={modalVisible} onChange={(result)=> console.log(result) } onClose={(response)=>setModalVisible(response)} />
 ```
+
+![](https://raw.githubusercontent.com/thevobos/CustomCalendar/main/IMG_0433.PNG) ![](https://raw.githubusercontent.com/thevobos/CustomCalendar/main/b4OBx.png) 
