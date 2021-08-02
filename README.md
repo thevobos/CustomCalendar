@@ -13,5 +13,5 @@ const [modalVisible, setModalVisible] = React.useState(false);
 ```
 
 ```javascript
-     <CustomCalendar visible={modalVisible} onChange={(result)=> console.log(result) } onClose={(response)=>setModalVisible(response)} />
+<CustomCalendar visible={modalVisible} onChange={(result)=> console.log(result) } onClose={(response)=>setModalVisible(response)} />
 ```
