@@ -6,6 +6,12 @@ For a project I was doing, I needed to write a common structure for android and 
 ### import your project
 
 ```javascript
+yarn add https://github.com/thevobos/CustomCalendar
+or
+nom install https://github.com/thevobos/CustomCalendar
+```
+
+```javascript
 import CustomCalendar  from "@thevobos/CustomCalendar";
 ```
 
