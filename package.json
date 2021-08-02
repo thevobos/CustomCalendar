@@ -1,0 +1,32 @@
+{
+  "name": "customcalendar",
+  "version": "1.0.0",
+  "description": "For a project I was doing, I needed to write a common structure for android and ios, and I created an easy structure for it. You can easily use it in your projects.",
+  "main": "CustomCalendar.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thevobos/CustomCalendar.git"
+  },
+  "keywords": [
+    "React",
+    "Native",
+    "React",
+    "Native",
+    "Calendar"
+  ],
+  "author": "Cengiz AKCAN",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thevobos/CustomCalendar/issues"
+  },
+  "dependencies": {
+      "react-native": "https://github.com/expo/react-native/archive/sdk-42.0.0.tar.gz",
+      "@react-native-community/datetimepicker": "3.5.2",
+      "react": "16.13.1",
+      "react-dom": "16.13.1",
+  },
+  "homepage": "https://github.com/thevobos/CustomCalendar#readme"
+}
