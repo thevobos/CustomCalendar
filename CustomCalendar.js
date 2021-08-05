@@ -28,6 +28,7 @@ const CustomCalendar = (props) => {
                                 themeVariant="light"
                                 value={new Date()}
                                 display="spinner"
+                                locale="tr-TR"
                                 onChange={(event, selectedDate)=>{
                                     const currentDate = selectedDate || new Date();
                                     props.onChange(currentDate);
@@ -54,6 +55,7 @@ const CustomCalendar = (props) => {
                 <RNDateTimePicker
                     themeVariant="light"
                     value={new Date()}
+                    locale="tr-TR"
                     display={Platform.OS === 'ios' ? 'spinner' : 'default'}
                     onChange={(event, selectedDate)=>{
                         props.onClose(false);
