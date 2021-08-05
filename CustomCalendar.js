@@ -21,7 +21,7 @@ const CustomCalendar = (props) => {
                 onRequestClose={() => {
                     props.onClose(false);
                 }}>
-                <View style={{width:"100%", height:"100%",  backgroundColor:"rgba(0,0,0,0.47)", position:"relative"}} >
+                <View style={{width:"100%", height:"100%", shadowColor: "#000", shadowOffset: { width: 0, height: 2, }, shadowOpacity: 0.25, shadowRadius: 3.84, elevation: 5, position:"relative"}} >
                     <View style={{width:"100%", minHeight: 330, backgroundColor:"white", position:"absolute", bottom:0, borderTopLeftRadius: 35, borderTopRightRadius: 35}}>
                         <View style={{paddingLeft:20, paddingRight:20, paddingTop:20 }}>
                             <RNDateTimePicker
